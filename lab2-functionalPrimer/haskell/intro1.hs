@@ -23,7 +23,7 @@ r9 = map sqrt [1..3]
 r10 = zip [1..3] (map sqrt [1..3])
 r11 = zip [1..3] (map sqrt [1..2])
 
-r12 = print [1..3]
+r12 = print [1..5]
 
 main :: IO ()
 main = pure ()
